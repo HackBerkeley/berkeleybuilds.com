@@ -1,161 +1,197 @@
-<html>
-    <head>
-        <title> Berkeley Builds </title>
-        <link rel="stylesheet" href="styles/css/animations.css"></link>
-        <link rel="stylesheet" href="styles/css/index.css"></link>
-        <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-    </head>
-    <body>
-        <div class="content">
-            
-            <div id="header">
-                <!-- Hide when scrolled down  -->
-                <span id="h-title"><a href="#"><b>Berkeley Builds</b></a></span>
-                <div id="h-tabs">
-                    <span class="h-tab"><a href="#about">About</a></span> 
-                    <span class="h-tab"><a href="#schedule">Schedule</a></span>
-                    <span class="h-tab"><a href="#map">Map</a></span>
-                    <span class="h-tab"><a href="#partners">Partners</a></span>
-                </div>
-            </div>
-            
-            <div class="panel" id="p-cover">
-                <a name="#"></a>
-                <div id="background">
-                    <img src="/img/background_cover.png"></img>
-                </div>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- General Meta -->
+  <meta charset="utf-8">
+  <meta name="description" content="Berkeley Builds: Social Impact Designathon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Berkeley Builds: Social Impact Designathon</title>
 
-            <a name="about"></a>
-            <div class="panel" id="p-about">
-                <div class="p-header"><b>Innovate, collaborate, and create for the following nonprofits</b></div>
-                <!--<a target="_" href="https://berkeleybuilds.devpost.com"><div id="apply-button" class="pulse">
-                <span>Submit</span>
-                </div></a>-->
-                <div id="np-gallary">
-                    <div class="np-card">
-                        <div class="logo">
-                            <a href="http://fairtradeusa.org/"><img src="img/logo_fair_trade.png"></img></a>
-                            
-                            <br><a href="https://docs.google.com/document/d/18QAd98UjFOUpNwUtQwDhitk2nZK6StxyqNjUO5Iyp1w/edit?usp=sharing">PROMPT</a>
-                        </div><br>
-                        <div class="text">
-                            Ever walk into a store and see products labeled "Fair Trade Certified"? Design for the international organization responsible for certifying and labeling products that impacts <b>1.5 million farmers worldwide.</b>
-                        </div>
-                    </div>
-                    <div class="np-card">
-                        <div class="logo">
-                            <a href="http://www.rootandrebound.org/"><img src="img/logo_root_rebound.png"></img></a>
-                        
-                        <br><a href="https://drive.google.com/file/d/0B9YrwaWCj14gakg4ZS1SanNIeEk/view?usp=sharing">PROMPT</a>
-                        </div><br>
-                        <div class="text">
-                            Today, the United States is <b>5%</b> of the world population but has <b>25%</b> of the world’s prisoners. Root and Rebound combats mass incarceration by equipping people in reentry from prison and jail, their family, agencies, and supporting nonprofit organizations, with resources for successful reintegration. Support Root and Rebound in streamlining California’s reentry process.
-                        </div>
-                    </div>
-                    <div class="np-card">
-                        <div class="logo">
-                            <a href="http://www.easydoesitservices.org/"><img src="img/logo_edi.png"></img></a>
-                                                
-                        <br><a href="https://drive.google.com/file/d/0B9YrwaWCj14gdkNZemJaaUphQ2c/view?usp=sharing">PROMPT</a>
-                        </div><br>
-                        <div class="text">
-                            While nearly <b>7,000</b> residents in the Berkeley area are registered with a physical or mental disability, <b>only 2,000</b> of these residents have access to clinical services that are necessary for them to stay healthy. Work with Easy Does It to create products that can service the remaining 5,000 Berkeley residents that go untreated every year.                        
-                        </div>
-                    </div>
-                    <div class="np-card">
-                        <div class="logo">
-                            <a href="http://www.bawar.org/"><img src="img/logo_bawar.png"></img></a>
-                         
-                        <br><a href="https://drive.google.com/file/d/0B6xlOa-yqNVrLVNrUTQya2d3MTQ/view?usp=sharing">PROMPT</a>
-                        </div><br>
-                        <div class="text">
-                            Every 2 minutes, somebody in the United States is a victim of sexual assault. Specifically, college age women are <b>4 times</b> more likely to be targets of sexual assault than anybody else. Design for BAWAR to join their mission of increasing access to education, counseling, and advocacy for Bay Area victims of all ages.
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 
-            
-            <a name="schedule"></a>
-            <div class="panel" id="p-schedule">
-                <a name="#"></a>
-                <div id="background">
-                    <img src="/img/schedule.jpg"></img>
-                </div>
-            </div>
-            
-            <a name="map"></a>
-            <div class="panel" id="p-map">
-                <a name="#"></a>
-                <div id="background">
-                    <img src="/img/map.png"></img>
-                </div>
-            </div>
-            
-            <a name="partners"></a>
-            <div class="panel" id="p-partners">
-                <div class="p-header"><b>Partners</b></div> 
-                <div class="p-gallary">
-                    <div class="p-partner-item partner-big">
-                        <a href="https://www.intuit.com/"><img src="img/logo_intuit.png"></img></a>
-                    </div>
-                    <div class="p-partner-item partner-big">
-                        <a href="http://www.pricespider.com/"><img id="ps"src="img/logo_price_spider.png"></img></a>
-                    </div>
-                    <div class="p-partner-item partner-big">
-                        <a href="https://www.indiegogo.com/"><img src="img/logo_indiegogo.png"></img></a>
-                    </div>
-                    <div class="p-partner-item partner-big">
-                        <a href="https://www.teachforamerica.org/"><img src="img/logo_tfa.png"></img></a>
-                    </div>
-                </div>
-                <div class="p-gallary">
-                    <div class="p-partner-item partner-medium">
-                        <a href="http://citris-uc.org/"><img src="img/logo_citris.png"></img></a>
-                    </div>
-                    <div class="p-partner-item partner-medium">
-                        <a href="http://www.kaporcenter.org/"><img src="img/logo_kapor.png"></img></a>
-                    </div>
-                    <div class="p-partner-item partner-medium">
-                        <a href="http://acumen.org/"><img src="img/logo_acumen.png"></img></a>
-                    </div>
-                    <div class="p-partner-item partner-medium">
-                        <a href="http://theberkeleygroup.org/">
-                            <img src="img/logo_tbg.png"></img>
-                        </a>
-                    </div>
-                    <div class="p-partner-item partner-medium">
-                        <a href="http://berkeleystartupcluster.com/">
-                            <img src="img/logo_bsc.png"></img>
-                        </a>
-                    </div>
-                    <div class="p-partner-item partner-medium">
-                        <a href="http://fluxx.io/">
-                            <img src="img/logo_fluxx.png"></img>
-                        </a>
-                    </div>
-                    <div class="p-partner-item partner-medium">
-                        <a href="http://sherpa.com/">
-                            <img src="img/logo_sherpa.png"></img>
-                        </a>
-                    </div>
-                    <div class="p-partner-item partner-medium">
-                        <a href="https://www.kiva.org/">
-                            <img src="img/logo_kiva.png"></img>
-                        </a>
-                    </div>
-                </div>
-            </div>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/img/favi.png">
+</head>
+<body>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a class="navbar-brand berkeley_builds-logo" href="#"></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#sponsors">SPONSORS</a></li>
+          <li><a href="https://berkeleybuilds.typeform.com/to/EeylWa">APPLY ></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-            <div class="panel" id="p-contact">
-                <a name="contact"></a>
-                <div class="p-content">
-                    <p>Contact us at berkeleybuilds@gmail.com</p>
-                </div>
-            </div>
+  <div class="home-container" id="home">
+    <div class="home-shade"></div>
+    <div class="container">
+      <section class="home row">
+        <div class="col-md-12 text-center">
+          <h1 class="home-title"> Berkeley Builds </h1>
+          <h2 class="home-sub-title"> Social Impact Designathon </h2>
+          <h3 class="home-info"> April 8-9, 2017 </h3>
+          <h3 class="home-info"> Sutardja Dai Hall, UC Berkeley </h3>
+          <a class="home-apply-button" href="https://berkeleybuilds.typeform.com/to/EeylWa">APPLY ></a>
         </div>
-        <script src="js/index.js"></script>
-    </body>
+      </section>
+    </div>
+  </div>
 
+  <div class="container">
+    <section id="about">
+      <div class="section-body">
+        <h1 class="solo-title">WHAT IS BERKELEY BUILDS?</h1>
+        <p>
+          Berkeley Builds is a social innovation designathon on UC Berkeley’s campus that invites
+          students from all academic disciplines to implement sustainable solutions to social issues
+          both domestically and internationally. Through collaboration with a diverse leadership of
+          student-run organizations focused on a range of topics from social impact to technology to
+          consulting, we encourage students to design solutions to address real problems. At the
+          event, we aim to maintain a mutually beneficial relationship with the nonprofit
+          organizations and corporate sponsors. The students gain hands-on experience and have the
+          opportunity to make a significant impact while networking with potential future employees.
+          At the same time, participating organizations and companies get the opportunity to market
+          their organization, advocate for their cause, and meet potential recruits.
+        </p>
+      </div>
+    </section>
+  </div>
+
+
+  <div class="nonprofits-container">
+    <div class="container">
+      <section id="nonprofits">
+        <div class="section-body">
+          <h2 class="nonprofit-title">Innovate, collaborate, and create for the following nonprofits</h2>
+          <a class="nonprofit rishi-logo" href="http://www.projectrishi.org" target="_blank"></a>
+          <a class="nonprofit health_leads-logo" href="https://healthleadsusa.org/" target="_blank"></a>
+          <a class="nonprofit ceri-logo" href="http://cerieastbay.org/web3/index.php" target="_blank"></a>
+          <a class="nonprofit teach_for_america-logo" href="https://www.teachforamerica.org" target="_blank"></a>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="container">
+    <section id="faq">
+      <div class="section-body">
+        <h1 class="solo-title">FREQUENTLY ASKED QUESTIONS</h1>
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <h3>Who can attend?</h3>
+            <p>
+              Anyone, regardless of major or prior experience, can attend Berkeley Builds 2017.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <h3>Does this cost money?</h3>
+            <p>
+              Nope! Admission is free and includes food, workshops, and swag!
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <h3>How do teams work?</h3>
+            <p>
+              Each team will have a maximum of 4 people. While we will do our very best to place individual applicants in balanced teams, we strongly encourage applicants to apply as interdisciplinary, technical, or non-technical teams in order to be successful at this event.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-4">
+            <h3>How do I get there?</h3>
+            <p>
+               Berkeley Builds 2017 will be at Sutardja Hall, UC Berkeley. Your team will work in our event’s design space, which includes Blum 100 and Blum 101.
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <h3>What should I bring?</h3>
+            <p>
+              Other than a personal laptop, participants aren’t required to bring any materials to Berkeley Builds. We will offer markers, whiteboards, snacks, pens, pencils, and other tools at the event for your teams to use!
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <h3>Is there a schedule?</h3>
+            <p>
+              Check back soon! We are finalizing the schedule at the moment.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-md-offset-4">
+            <h3>What if I have another question?</h3>
+            <p>
+               Feel free to <a href="https://www.facebook.com/berkeleybuilds">message us on Facebook</a> if you’re in any way confused or concerned about anything about the event! We’d love to help you out :)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="sponsors-container">
+    <div class="container">
+      <section id="sponsors">
+        <div class="section-body">
+          <h1 class="solo-title">Sponsors</h1>
+          <div class="sponsor-grid">
+            <a href="https://github.com" target="_blank"><img src="img/sponsors/github.png" alt="Github"></img></a>
+            <a href="https://gigamon.com" target="_blank"><img src="img/sponsors/gigamon.jpg" alt="Gigamon"></img></a>
+            <a href="https://berkeleystartupcluster.com" target="_blank"><img src="img/sponsors/bsc.jpg" alt="Berkeley Startup Cluster"></img></a>
+            <a href="https://http://citris-uc.org" target="_blank"><img src="img/sponsors/citris.png" alt="CITRIS"></img></a>
+          </div>
+          <h3>Interested in sponsoring? Email us at <a href="mailto:berkeleybuilds@gmail.com?subject=Berkeley%20Builds%202016%20Sponsorship/Partnership%20Inquiry">berkeleybuilds@gmail.com</a>! We'd love to have you.</h3>
+        </div>
+      </section>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <section id="partners">
+      <div class="section-body">
+        <h1 class="solo-title">Partners</h1>
+        <a class="cohost asuc-logo" href="https://asuc.org" target="_blank"></a>
+        <a class="cohost tbg-logo" href="theberkeleygroup.org/" target="_blank"></a>
+        <a class="cohost blueprint-logo" href="http://www.calblueprint.org/" target="_blank"></a>
+        <a class="cohost enable_tech-logo" href="https://www.facebook.com/enabletechberkeley" target="_blank"></a>
+        <a class="cohost hab-logo" href="https://hackersatberkeley.com" target="_blank"></a>
+        <a class="cohost rishi-logo" href="http://www.projectrishi.org" target="_blank"></a>
+      </div>
+    </section>
+  </div>
+
+  <section class="footer">
+    <a href="https://www.facebook.com/events/1015426511861136/">
+      <i class="fa fa-facebook"></i>
+    </a>
+    <a href="mailto:berkeleybuilds@gmail.com">
+      <i class="fa fa-envelope"></i>
+    </a>
+    <img src="img/2017bb-lightbulb.png" class="footer-logo"></img>
+    <small>Copyright &copy; 2017 Berkeley Builds</small>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+</body>
 </html>
