@@ -201,9 +201,9 @@ button.navbar-toggle {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100px;
-  width: 100px;
-  margin: 15px;
+  height: 150px;
+  width: 150px;
+  margin: 20px;
   display: inline-block;
   opacity: 0.6;
   transition: all 0.3s;
