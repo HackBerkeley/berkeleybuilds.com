@@ -197,7 +197,18 @@ button.navbar-toggle {
 
 /* About */
 
-.cohost, .nonprofit {
+.cohost {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  margin: 15px;
+  display: inline-block;
+  opacity: 0.6;
+  transition: all 0.3s;
+}
+ .nonprofit {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
